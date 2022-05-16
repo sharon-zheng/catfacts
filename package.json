@@ -1,0 +1,20 @@
+{
+  "name": "catfacts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "catFactsServer.js",
+  "scripts": {
+    "start": "nodemon catFactsServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sharon zheng",
+  "license": "ISC",
+  "dependencies": {
+    "cross-fetch": "^3.1.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "node-fetch": "^2.6.7"
+  }
+}

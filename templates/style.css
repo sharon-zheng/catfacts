@@ -1,0 +1,50 @@
+body {
+    background-color: lightcyan;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: sienna;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+p {
+    font-weight: bold;
+}
+
+input {
+    border-radius: 0.35em;
+    border-color: aliceblue;
+    padding: 0.4em;
+    font-family: "Lucida Console", "Courier New", monospace;
+    box-shadow: 0.1em 0.1em 0.1em antiquewhite;
+}
+
+a {
+    background-color:#6b9dae;
+    box-shadow:0.2em 0.2em 0 0 #9cbec9;
+    border-radius: 0.35em;
+    padding: 0.3em 0.5em 0.45em;
+    color: white;
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+a:visited { 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: none; 
+    box-shadow:0.1em 0.1em 0 0 #9cbec9;
+    font-size: 0.99em;
+}
+
+a:active { 
+    text-decoration: none; 
+}
+

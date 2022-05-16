@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Random Cat Facts</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Random Cat Facts</h1>
+        <form action="/processCatFacts" method="post">
+                <label><strong>How many cat facts would you like to generate? </strong><input type="number" name="numOfFacts" min="1" max="332" required/></label>
+                <br><br>
+            <input type="reset" />
+            <input type="submit" value="Generate"/>
+        </form>
+
+        <br>
+        <hr>
+        <a href="/">HOME</a>
+        <a href="/catFactsHistory">HISTORY</a>
+    </div>
+
+</body>
+
+</html>
